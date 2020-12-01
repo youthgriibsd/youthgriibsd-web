@@ -1,0 +1,97 @@
+theme = "hugo-theme-codex"
+
+baseURL = "https://youth.grii-bsd.org"
+languageCode = "en-us"
+copyright = "© Youth GRII BSD {year}"
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    contentDir = "content/english"
+    languageName = "English"
+    title = "Youth GRII BSD"
+  [languages.id]
+    contentDir = "content/indonesian"
+    languageName = "Bahasa Indonesia"
+    title = "Pemuda GRII BSD"
+
+[params]
+  dateFormat = "Jan 2 2006"
+
+  instagram = "https://instagram.com/youthgriibsd"
+  youtube = "https://www.youtube.com/channel/UCUSYXuRT8Epm_V5294Mp6Ug"
+  email = "mailto:youthgriibsd@gmail.com"
+
+  iconOrder = ["Instagram", "YouTube", "Email"]
+  showPageTitleInTOC = true
+
+  [params.navigation]
+    help = "Help"
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[[languages.en.menu.main]]
+  identifier = "home"
+  name = "home"
+  title = "Home"
+  url = "/"
+
+[[languages.en.menu.main]]
+  identifier = "events"
+  name = "events"
+  title = "Events"
+  url = "/events"
+
+[[languages.en.menu.main]]
+  identifier = "quotes"
+  name = "quotes"
+  title = "Quotes"
+  url = "/quotes"
+
+[[languages.en.menu.main]]
+  identifier = "contact"
+  name = "contact"
+  title = "Quotes"
+  url = "/contact"
+
+[[languages.en.menu.main]]
+  identifier = "register"
+  name = "Christmas 2020"
+  title = "Christmas 2020"
+  url = "/christmas-2020"
+
+[[languages.id.menu.main]]
+  identifier = "home"
+  name = "home"
+  title = "Home"
+  url = "/id"
+
+[[languages.id.menu.main]]
+  identifier = "acara"
+  name = "acara"
+  title = "Acara"
+  url = "/id/events"
+
+[[languages.id.menu.main]]
+  identifier = "kutipan"
+  name = "kutipan"
+  title = "Kutipan"
+  url = "/id/quotes"
+
+[[languages.id.menu.main]]
+  identifier = "kontak"
+  name = "kontak"
+  title = "Kontak"
+  url = "/id/kontak"
+
+[[languages.id.menu.main]]
+  identifier = "daftar"
+  name = "Natal 2020"
+  title = "Natal Pemuda 2020"
+  url = "/id/natal-2020"
+
