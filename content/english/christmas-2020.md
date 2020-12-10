@@ -7,7 +7,7 @@ draft: false
 
 <h4>Youth GRII BSD Christmas 2020</h4>
 
-![image](/images/christmas2020.jpeg)
+![image](/images/christmas2020-en.jpeg)
 
 <h3>FEAR NOT!</h3>
 
@@ -16,19 +16,19 @@ draft: false
 ⭐ Saturday, December 12th, 2020\
 🕔 4.45 p.m.
 
-Preacher:
+**Preacher**:\
 Rev. Titus Ndoen
 
-**Registration**:
-https://youth.grii-bsd.org/register
+**YouTube and Zoom**:
 
-**Zoom**:\
-(to be announced)
-
-**Youtube**:\
-(to be announced)
+<ul id="streaming-link">
+<li><a href="https://youtu.be/-ydT_FP1ZF4"><img id="streaming-entry" src="/images/youtube.png" alt="https://youtu.be/-ydT_FP1ZF4" width="15%"></a></li>
+<li><a href="https://zoom.us/j/98569521706"><img id="streaming-entry" src="/images/zoom.png" alt="https://zoom.us/j/98569521706" width="15%"></a></li>
+</ul>
 
 Come and join us now!
 
 **Info**:\
 Adithya (081932178385) / Johanes (081296968779)
+
+<button id="registration" onclick="window.location.href='https://youth.grii-bsd.org/register';">Register Here</button>
