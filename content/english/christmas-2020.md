@@ -32,3 +32,5 @@ Come and join us now!
 Adithya (081932178385) / Johanes (081296968779)
 
 <button id="registration" onclick="window.location.href='https://youth.grii-bsd.org/register';">Register Here</button>
+
+<button id="registration" onclick="window.location.href='../files/christmas/FEAR_NOT_2020.pdf';" download>Download Event Handbook</button>

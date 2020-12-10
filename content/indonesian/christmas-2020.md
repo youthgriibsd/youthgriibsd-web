@@ -33,3 +33,5 @@ Ayo daftar dan ikut acara ini!
 Adithya (081932178385) / Johanes (081296968779)
 
 <button id="registration" onclick="window.location.href='https://youth.grii-bsd.org/id/daftar';">Daftar Sekarang</button>
+
+<button id="registration" onclick="window.location.href='../files/christmas/FEAR_NOT_2020.pdf';" download>Download Buku Acara</button>
