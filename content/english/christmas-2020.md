@@ -19,11 +19,12 @@ draft: false
 **Preacher**:\
 Rev. Titus Ndoen
 
-**YouTube and Zoom**:
+**YouTube and Zoom**:\
+(Click on the button below)
 
 <ul id="streaming-link">
-<li><a href="https://youtu.be/-ydT_FP1ZF4"><img id="streaming-entry" src="/images/youtube.png" alt="https://youtu.be/-ydT_FP1ZF4" width="15%"></a></li>
-<li><a href="https://zoom.us/j/98569521706"><img id="streaming-entry" src="/images/zoom.png" alt="https://zoom.us/j/98569521706" width="15%"></a></li>
+<li><a href="https://youtu.be/-ydT_FP1ZF4"><img id="streaming-entry" src="/images/youtube.png" alt="https://youtu.be/-ydT_FP1ZF4"></a></li>
+<li><a href="https://zoom.us/j/98569521706"><img id="streaming-entry" src="/images/zoom.png" alt="https://zoom.us/j/98569521706"></a></li>
 </ul>
 
 Come and join us now!
@@ -33,4 +34,4 @@ Adithya (081932178385) / Johanes (081296968779)
 
 <button id="registration" onclick="window.location.href='https://youth.grii-bsd.org/register';">Register Here</button>
 
-<button id="registration" onclick="window.location.href='../files/christmas/FEAR_NOT_2020.pdf';" download>Download Event Handbook</button>
+<button id="registration" onclick="window.location.href='../files/christmas/FEAR_NOT_2020.pdf';" download>Download Event Book</button>

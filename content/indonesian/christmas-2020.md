@@ -20,7 +20,8 @@ draft: false
 **Pembicara**:\
 Pdt. Titus Ndoen
 
-**YouTube and Zoom**:
+**YouTube and Zoom**:\
+(Tekan tombol di bawah ini)
 
 <ul id="streaming-link">
 <li><a href="https://youtu.be/-ydT_FP1ZF4"><img id="streaming-entry" src="/images/youtube.png" alt="https://youtu.be/-ydT_FP1ZF4" width="15%"></a></li>
