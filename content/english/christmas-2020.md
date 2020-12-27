@@ -23,7 +23,7 @@ Rev. Titus Ndoen
 (Click on the button below)
 
 <ul id="streaming-link">
-<li><a href="https://youtu.be/-ydT_FP1ZF4"><img id="streaming-entry" src="/images/youtube.png" alt="https://youtu.be/-ydT_FP1ZF4"></a></li>
+<li><a href="https://youtu.be/_qrAd2ssGnc"><img id="streaming-entry" src="/images/youtube.png" alt="https://youtu.be/_qrAd2ssGnc"></a></li>
 <li><a href="https://zoom.us/j/98569521706"><img id="streaming-entry" src="/images/zoom.png" alt="https://zoom.us/j/98569521706"></a></li>
 </ul>
 

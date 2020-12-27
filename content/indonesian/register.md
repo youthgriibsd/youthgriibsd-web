@@ -16,7 +16,7 @@ draft: false
 <input type="text" name="status" placeholder="Kerja / Kuliah / Sekolah" required>
 
 <label for="place-of-work">Tempat Kerja atau Kuliah / Place of Work or Study:</label><br>
-<input type="text" name="place-of-work" placeholder="Universitas Multimedia Nusantara">
+<input type="text" name="place-of-work" placeholder="Nama Tempat Kerja atau Tempat Studi">
 
 <label for="phonenumber">Nomor HP / Phone Number (081xxxxxxx):</label></br>
 <input type="number" name="phonenumber" placeholder="081xxxxxxx" required>
@@ -34,7 +34,7 @@ draft: false
 <input type="text" name="church" placeholder="GRII BSD">
 
 <label for="referral">Tahu acara ini dari? / How did you find out about the event?:</label><br>
-<input type="text" name="referral" placeholder="Jane Doe / Friends / Banner / Instagram">
+<input type="text" name="referral" placeholder="Friends / Banner / Instagram">
 
 <label for="first-qn">Apa harapanmu di tahun 2021? (Opsional) / What do you hope in 2021? (Optional):</label></br>
 <input type="text" name="first-qn">
