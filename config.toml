@@ -59,12 +59,6 @@ defaultContentLanguage = "en"
   title = "Quotes"
   url = "/contact"
 
-[[languages.en.menu.main]]
-  identifier = "register"
-  name = "Christmas 2020"
-  title = "Christmas 2020"
-  url = "/christmas-2020"
-
 [[languages.id.menu.main]]
   identifier = "home"
   name = "home"
@@ -88,10 +82,3 @@ defaultContentLanguage = "en"
   name = "kontak"
   title = "Kontak"
   url = "/id/kontak"
-
-[[languages.id.menu.main]]
-  identifier = "daftar"
-  name = "Natal 2020"
-  title = "Natal Pemuda 2020"
-  url = "/id/natal-2020"
-
