@@ -1,0 +1,37 @@
+name: site-builder
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Compress
+        uses: montudor/action-zip@v0.1.1
+        with:
+          args: zip -r public.zip public
+
+      - name: Upload
+        uses: actions/upload-artifact@v2
+        with:
+          name: generated-site
+          path: ./public
