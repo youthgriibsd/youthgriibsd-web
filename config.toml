@@ -56,7 +56,7 @@ defaultContentLanguage = "en"
 [[languages.en.menu.main]]
   identifier = "contact"
   name = "contact"
-  title = "Quotes"
+  title = "Contact"
   url = "/contact"
 
 [[languages.id.menu.main]]
