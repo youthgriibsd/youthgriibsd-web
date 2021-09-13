@@ -48,5 +48,17 @@
       </span>
     </li>
     {{ end }}
-  </ul>
+
+    {{ range $.Site.Home.AllTranslations }}
+    <li class="grid">
+      <ul class="language-list">
+        <li>
+          <a href="{{ .Permalink }}" data-lang="{{ .Lang }}" title="{{ .Language.LanguageName }}">
+            <img src="/{{ .Lang }}_flag.png" alt="{{ .Lang }}">
+          </a>
+        </li>
+      </ul>
+    </li>
+    {{ end }}
+
 </header>
