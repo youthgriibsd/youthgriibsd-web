@@ -9,7 +9,11 @@
     {{ end }}
 
     {{ range .Site.Sections }}
+      {{ if eq .Language.Lang "id" }}
+      <li><a href="{{ .Permalink }}">{{ .Params.judul }}</a></li>
+      {{ else }}
       <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
     {{ end }}
 
     {{ if .Site.Params.enableSearch }}

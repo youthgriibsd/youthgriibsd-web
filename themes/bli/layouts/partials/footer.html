@@ -3,7 +3,7 @@
     {{ if (isset .Site.Params "copyright") }}
     {{ .Site.Params.copyright }}
     {{ else }}
-    {{ dateFormat "2006" now }} © {{ .Site.Title }}
+    © {{ .Site.Title }} {{ dateFormat "2006" now }} 
     {{ end }}
   </span>
   <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">

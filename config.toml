@@ -18,10 +18,7 @@ defaultContentLanguage = "en"
   name = "Youth GRII BSD"
   
   darkModeToggle = true
-  
   enableSearch = false
-
-  copyright = "© Youth GRII BSD 2021"
   favicon = "favicon.ico"
 
   # Reference: https://tailwindcss.com/docs/customizing-colors
@@ -56,6 +53,7 @@ defaultContentLanguage = "en"
   url = "/contact"
 
 [[languages.id.menu.main]]
+  identifier = "kontak"
   name = "Kontak"
-  url = "/kontak"
+  url = "/id/kontak"
 
