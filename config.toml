@@ -1,0 +1,61 @@
+theme = "bli"
+languageCode = "en-US"
+baseurl = "https://youth.grii-bsd.org"
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    contentDir = "content/english"
+    languageName = "English"
+    title = "Youth GRII BSD"
+  [languages.id]
+    contentDir = "content/indonesian"
+    languageName = "Bahasa Indonesia"
+    title = "Pemuda GRII BSD"
+
+[params]
+  description = "Youth GRII BSD"
+  name = "Youth GRII BSD"
+  
+  darkModeToggle = true
+  
+  enableSearch = false
+
+  copyright = "© Youth GRII BSD 2021"
+  favicon = "favicon.ico"
+
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-yellow-200"
+
+[params.homepage]
+  title = "Hi, We are Youth GRII BSD"
+  description = "Come join us for fellowship. Every Saturday 4:45pm"
+  photo = "/cover.jpeg"
+
+[params.homepage.social]
+  title = "Follow us!"
+  description = "Find us on our social media here:"
+  instagram = "https://instagram.com/youthgriibsd"
+  youtube = "https://www.youtube.com/channel/UCUSYXuRT8Epm_V5294Mp6Ug"
+  email = "mailto:youthgriibsd@gmail.com"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[[languages.en.menu.main]]
+  name = "Contact"
+  url = "/contact"
+
+[[languages.id.menu.main]]
+  name = "Kontak"
+  url = "/kontak"
+
