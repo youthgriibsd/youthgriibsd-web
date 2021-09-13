@@ -52,8 +52,17 @@ defaultContentLanguage = "en"
   name = "Contact"
   url = "/contact"
 
+[[languages.en.menu.main]]
+  name = "Offering"
+  url = "/offering"
+
 [[languages.id.menu.main]]
   identifier = "kontak"
   name = "Kontak"
   url = "/id/kontak"
+
+[[languages.id.menu.main]]
+  identifier = "persembahan"
+  name = "Persembahan"
+  url = "/id/persembahan"
 
