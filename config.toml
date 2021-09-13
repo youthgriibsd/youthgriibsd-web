@@ -37,7 +37,7 @@ defaultContentLanguage = "en"
   email = "mailto:youthgriibsd@gmail.com"
 
 [build]
-  writeStats = true
+  writeStats = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

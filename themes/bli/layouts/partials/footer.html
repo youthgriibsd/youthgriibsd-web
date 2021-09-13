@@ -20,7 +20,25 @@
 
 {{ template "_internal/google_analytics_async.html" . }}
 
+<script>
+  const languageSelectorButton = document.querySelector('.dropdownButton');
+  const languageSelectorArrow = document.querySelector('.dropdownArrow');
+  const languageSelectorDisplay = document.querySelector('.dropdownDisplay');
+
+  function toggleLanguageDisplay() {
+    if (languageSelectorDisplay.classList.contains('hidden')) {
+      languageSelectorArrow.classList.add('rotate-180')
+      languageSelectorDisplay.classList.remove('hidden')
+    } else {
+      languageSelectorArrow.classList.remove('rotate-180')
+      languageSelectorDisplay.classList.add('hidden')
+    }
+  }
+
+  languageSelectorButton.addEventListener('click', toggleLanguageDisplay);
+</script>
 {{ if .Site.Params.darkModeToggle }}
+
 <script>
   // On page load or when changing themes
   const darkmode = document.querySelector('.toggle-dark-mode');
