@@ -51,7 +51,7 @@
       <li><a href="{{ .URL }}">{{ .Name }}</a></li>
     {{ end }}
 
-    {{ range .Site.Sections }}
+    {{ range sort .Site.Sections }}
       {{ if eq .Language.Lang "id" }}
       <li><a href="{{ .Permalink }}">{{ .Params.judul }}</a></li>
       {{ else }}
@@ -73,7 +73,7 @@
 
     {{ if .Site.Params.darkModeToggle }}
     <li class="hidden md:grid md:place-items-center">
-      <span class="toggle-dark-mode inline-block cursor-pointer">
+      <span class="toggle-dark-mode-md inline-block cursor-pointer">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
           stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -93,13 +93,13 @@
 
     <li class="hidden md:grid md:place-items-center">
       <div class="relative">
-        <button class="dropdownButton flex flex-column dark:bg-gray-800 place-items-center block rounded-md bg-white px-2 focus:outline-none">
+        <button class="dropdownButtonMD flex flex-column dark:bg-gray-800 place-items-center block rounded-md bg-white px-2 focus:outline-none">
           <img src="/{{ .Site.Language.Lang }}_flag.png" alt="{{ .Site.Language.Lang }}">
-          <svg class="dropdownArrow h-5 w-5 text-gray-800 dark:text-white transition-transform duration-200 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+          <svg class="dropdownArrowMD h-5 w-5 text-gray-800 dark:text-white transition-transform duration-200 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
           </svg>
         </button>
-        <div class="dropdownDisplay hidden absolute right-0 mt-2 py-2 w-48 z-50 transition-opacity duration-1000 bg-white rounded-md shadow-xl dark:bg-gray-800">
+        <div class="dropdownDisplayMD hidden absolute right-0 mt-2 py-2 w-48 z-50 transition-opacity duration-1000 bg-white rounded-md shadow-xl dark:bg-gray-800">
         {{ range sort .AllTranslations }}
         <a class="inline-block w-full px-4 py-2 mt-2 bg-transparent rounded-lg dark:bg-transparentdark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="{{ .Permalink }}" data-lang="{{ .Lang }}" title="{{ .Language.LanguageName }}">
            <div class="flex flex-column place-items-center">

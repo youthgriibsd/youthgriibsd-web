@@ -22,8 +22,11 @@
 
 <script>
   const languageSelectorButton = document.querySelector('.dropdownButton');
+  const languageSelectorButtonMD = document.querySelector('.dropdownButtonMD');
   const languageSelectorArrow = document.querySelector('.dropdownArrow');
+  const languageSelectorArrowMD = document.querySelector('.dropdownArrowMD');
   const languageSelectorDisplay = document.querySelector('.dropdownDisplay');
+  const languageSelectorDisplayMD = document.querySelector('.dropdownDisplayMD');
 
   function toggleLanguageDisplay() {
     if (languageSelectorDisplay.classList.contains('hidden')) {
@@ -35,13 +38,27 @@
     }
   }
 
+  function toggleLanguageDisplayMD() {
+    if (languageSelectorDisplayMD.classList.contains('hidden')) {
+      languageSelectorArrowMD.classList.add('rotate-180')
+      languageSelectorDisplayMD.classList.remove('hidden')
+    } else {
+      languageSelectorArrowMD.classList.remove('rotate-180')
+      languageSelectorDisplayMD.classList.add('hidden')
+    }
+  }
+
   languageSelectorButton.addEventListener('click', toggleLanguageDisplay);
+  languageSelectorButtonMD.addEventListener('click', toggleLanguageDisplayMD);
+
 </script>
 {{ if .Site.Params.darkModeToggle }}
 
 <script>
   // On page load or when changing themes
   const darkmode = document.querySelector('.toggle-dark-mode');
+  const darkmodeMD = document.querySelector('.toggle-dark-mode-md');
+
   function toggleDarkMode() {
     if (document.documentElement.classList.contains('dark')) {
       document.documentElement.classList.remove('dark')
@@ -50,6 +67,9 @@
       document.documentElement.classList.add('dark')
       localStorage.setItem('darkmode', 'dark')
     }
+  }
+  if (darkmodeMD) {
+    darkmodeMD.addEventListener('click', toggleDarkMode);
   }
   if (darkmode) {
     darkmode.addEventListener('click', toggleDarkMode);
