@@ -1,4 +1,4 @@
-<header class="container flex justify-around md:justify-between gap-4 flex-wrap p-6 mx-auto">
+<header class="container flex justify-between md:justify-between gap-4 flex-wrap p-6 mx-auto">
   <a href="{{ .Site.Home.Permalink }}" class="capitalize font-bold text-2xl hover:text-yellow-600 focus:text-yellow-600">
     {{ .Site.Title }}
   </a>
@@ -6,7 +6,7 @@
   <ul class="flex flex-column justify-between justify-around md:hidden">
     {{ if .Site.Params.darkModeToggle }}
     <li class="grid place-items-center">
-      <span class="toggle-dark-mode inline-block cursor-pointer hover:text-yellow-600 focus:text-yellow-600">
+      <span class="toggle-dark-mode inline-block cursor-pointer hover:text-yellow-600">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
           stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -26,7 +26,7 @@
 
     <li class="grid place-items-center">
       <div class="relative">
-        <button class="dropdownButton flex flex-column dark:bg-gray-800 place-items-center block rounded-md bg-white px-2 focus:outline-none">
+        <button class="dropdownButton flex flex-column dark:bg-gray-800 place-items-center block rounded-md bg-white pl-4 focus:outline-none">
           <img src="/{{ .Site.Language.Lang }}_flag.png" alt="{{ .Site.Language.Lang }}">
           <svg class="dropdownArrow h-5 w-5 text-gray-800 dark:text-white transition-transform duration-200 transform" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -74,7 +74,7 @@
 
     {{ if .Site.Params.darkModeToggle }}
     <li class="hidden md:grid md:place-items-center">
-      <span class="hover:text-yellow-600 focus:text-yellow-600 toggle-dark-mode-md inline-block cursor-pointer">
+      <span class="toggle-dark-mode-md inline-block cursor-pointer hover:text-yellow-600">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
           stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none" />
