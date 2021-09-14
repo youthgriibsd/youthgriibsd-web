@@ -8,7 +8,8 @@ You can give your offering by using these two methods:
 
 **1. QR Code (QRIS)**
 
-![image](/qr-persembahan.png)
+<img class="offering" src="/qr-persembahan.png" alt="Offering">
+<img class="offeringDark hidden" src="/qr-persembahan-dark.png" alt="Offering">
 
 <br>
 

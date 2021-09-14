@@ -28,10 +28,10 @@ defaultContentLanguage = "en"
   title = "Hi, We are Youth GRII BSD"
   description = "Come join us for fellowship. Every Saturday 4:45pm."
   photos = [
-    "cover1.jpeg",
-    "cover2.jpeg",
-    "cover3.jpeg",
-    "cover4.jpeg",
+    "/cover1.jpeg",
+    "/cover2.jpeg",
+    "/cover3.jpeg",
+    "/cover4.jpeg",
   ]
 
 [params.homepage.social]

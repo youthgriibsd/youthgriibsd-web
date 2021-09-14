@@ -9,7 +9,8 @@ Anda bisa memberikan persembahan kasih dengan dua cara berikut:
 
 **1. QR Code (QRIS)**
 
-![image](/qr-persembahan.png)
+<img class="offering" src="/qr-persembahan.png" alt="Offering">
+<img class="offeringDark hidden" src="/qr-persembahan-dark.png" alt="Offering">
 
 <br>
 

@@ -29,13 +29,34 @@
 <script>
   const darkmode = document.querySelector('.toggle-dark-mode');
   const darkmodeMD = document.querySelector('.toggle-dark-mode-md');
+  const o = document.querySelector('.offering')
+  const od = document.querySelector('.offeringDark')
+
+  function toggleOffering(mode) {
+    if (od == null || o == null) {
+      return
+    }
+    if (mode == 'light') {
+      if (od && !od.classList.contains("hidden")) {
+        od.classList.add("hidden");
+      } 
+      o.classList.remove("hidden");
+    } else {
+      if (o && !o.classList.contains("hidden")) {
+        o.classList.add("hidden");
+      } 
+      od.classList.remove("hidden");
+    }
+  }
 
   function toggleDarkMode() {
     if (document.documentElement.classList.contains('dark')) {
       document.documentElement.classList.remove('dark')
+      toggleOffering('light')
       localStorage.setItem('darkmode', 'light')
     } else {
       document.documentElement.classList.add('dark')
+      toggleOffering('dark')
       localStorage.setItem('darkmode', 'dark')
     }
   }
