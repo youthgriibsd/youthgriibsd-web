@@ -24,9 +24,6 @@ defaultContentLanguage = "en"
   # Reference: https://tailwindcss.com/docs/customizing-colors
   ascentColor = "bg-yellow-200"
 
-[params.homepage]
-  title = "Hi, We are Youth GRII BSD"
-  description = "Come join us for fellowship. Every Saturday 4:45pm."
   photos = [
     "/cover1.jpeg",
     "/cover2.jpeg",
@@ -35,8 +32,6 @@ defaultContentLanguage = "en"
   ]
 
 [params.homepage.social]
-  title = "Follow us!"
-  description = "Find us on our social media here:"
   instagram = "https://instagram.com/youthgriibsd"
   youtube = "https://www.youtube.com/channel/UCUSYXuRT8Epm_V5294Mp6Ug"
   email = "mailto:youthgriibsd@gmail.com"

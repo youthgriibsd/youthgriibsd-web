@@ -1,10 +1,10 @@
 <section class="{{ .Site.Params.ascentColor | default "bg-pink-50" }} dark:bg-gray-900">
   <div class="container max-w-screen-lg mx-auto px-6 py-12 grid md:grid-cols-2 gap-4 lg:gap-16 items-center">
     <div>
-      <h1 class="text-4xl font-bold mb-4">{{ .Site.Params.homepage.title }}</h1>
-      <p class="font-light text-lg">{{ .Site.Params.homepage.description }}</p>
+      <h1 class="text-4xl font-bold mb-4">{{ .Params.heading }}</h1>
+      <p class="font-light text-lg">{{ .Params.subheading }}</p>
     </div>
-    {{ range .Site.Params.homepage.photos }}
+    {{ range .Site.Params.photos }}
     <img class="slide hidden rounded-lg shadow-sm" src="{{ . }}" alt="Youth GRII BSD"/>
     {{ end }}
   </div>
