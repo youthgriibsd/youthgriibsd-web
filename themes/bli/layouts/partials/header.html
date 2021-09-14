@@ -1,5 +1,5 @@
 <header class="container flex justify-around md:justify-between gap-4 flex-wrap p-6 mx-auto">
-  <a href="{{ .Site.Home.Permalink }}" class="capitalize font-extrabold text-2xl">
+  <a href="{{ .Site.Home.Permalink }}" class="capitalize font-bold text-2xl">
     {{ .Site.Title }}
   </a>
 
@@ -47,17 +47,18 @@
 
 
   <ul class="flex items-center gap-4 lg:gap-6">
-    {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-    {{ end }}
-
-    {{ range sort .Site.Sections }}
+    {{ range .Site.Sections }}
       {{ if eq .Language.Lang "id" }}
-      <li><a href="{{ .Permalink }}">{{ .Params.judul }}</a></li>
+      <li><a class="hover:text-yellow-600 focus:text-yellow-600" href="{{ .Permalink }}">{{ .Params.judul }}</a></li>
       {{ else }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      <li><a class="hover:text-yellow-600 focus:text-yellow-600"href="{{ .Permalink }}">{{ .Title }}</a></li>
       {{ end }}
     {{ end }}
+
+    {{ range .Site.Menus.main }}
+      <li><a class="hover:text-yellow-600 focus:text-yellow-600"href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+
     {{ if .Site.Params.enableSearch }}
     <li class="grid place-items-center">
       <span class="open-search inline-block cursor-pointer">
