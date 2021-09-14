@@ -8,6 +8,7 @@ defaultContentLanguage = "en"
     contentDir = "content/english"
     languageName = "English"
     title = "Youth GRII BSD"
+
   [languages.id]
     contentDir = "content/indonesian"
     languageName = "Bahasa Indonesia"
@@ -24,12 +25,24 @@ defaultContentLanguage = "en"
   # Reference: https://tailwindcss.com/docs/customizing-colors
   ascentColor = "bg-yellow-200"
 
+  heading = "We are Youth GRII BSD"
+  subheading = "Come join us for fellowship. Every Saturday 4:45pm."
+  socialTitle = "Follow us!"
+  socialDescription = "Find us on our social media here:"
+  morePosts = "More Posts"
   photos = [
     "/cover1.jpeg",
     "/cover2.jpeg",
     "/cover3.jpeg",
     "/cover4.jpeg",
   ]
+
+[params.id]
+  heading = "Kami adalah Pemuda GRII BSD"
+  subheading = "Ayo bersekutu bersama dengan kami. Setiap Sabtu, jam 16:45."
+  socialTitle = "Ikuti kami!"
+  socialDescription = "Cari kami di media sosial melalui tautan berikut:"
+  morePosts = "Acara Berikutnya"
 
 [params.homepage.social]
   instagram = "https://instagram.com/youthgriibsd"
