@@ -21,41 +21,12 @@
 {{ template "_internal/google_analytics_async.html" . }}
 
 <script>
-  const languageSelectorButton = document.querySelector('.dropdownButton');
-  const languageSelectorButtonMD = document.querySelector('.dropdownButtonMD');
-  const languageSelectorArrow = document.querySelector('.dropdownArrow');
-  const languageSelectorArrowMD = document.querySelector('.dropdownArrowMD');
-  const languageSelectorDisplay = document.querySelector('.dropdownDisplay');
-  const languageSelectorDisplayMD = document.querySelector('.dropdownDisplayMD');
-
-  function toggleLanguageDisplay() {
-    if (languageSelectorDisplay.classList.contains('hidden')) {
-      languageSelectorArrow.classList.add('rotate-180')
-      languageSelectorDisplay.classList.remove('hidden')
-    } else {
-      languageSelectorArrow.classList.remove('rotate-180')
-      languageSelectorDisplay.classList.add('hidden')
-    }
-  }
-
-  function toggleLanguageDisplayMD() {
-    if (languageSelectorDisplayMD.classList.contains('hidden')) {
-      languageSelectorArrowMD.classList.add('rotate-180')
-      languageSelectorDisplayMD.classList.remove('hidden')
-    } else {
-      languageSelectorArrowMD.classList.remove('rotate-180')
-      languageSelectorDisplayMD.classList.add('hidden')
-    }
-  }
-
-  languageSelectorButton.addEventListener('click', toggleLanguageDisplay);
-  languageSelectorButtonMD.addEventListener('click', toggleLanguageDisplayMD);
-
+  const a=document.querySelector(".dropdownButton"),b=document.querySelector(".dropdownButtonMD"),c=document.querySelector(".dropdownArrow"),d=document.querySelector(".dropdownArrowMD"),e=document.querySelector(".dropdownDisplay"),f=document.querySelector(".dropdownDisplayMD");function g(){e.classList.contains("hidden")?(c.classList.add("rotate-180"),e.classList.remove("hidden")):(c.classList.remove("rotate-180"),e.classList.add("hidden"))}function h(){f.classList.contains("hidden")?(d.classList.add("rotate-180"),f.classList.remove("hidden")):(d.classList.remove("rotate-180"),f.classList.add("hidden"))}a.addEventListener("click",g),b.addEventListener("click",h);
+  (function(){var x=$(".slide");i=-1;function a(){++i;x.eq(i%x.length).fadeIn(1e3).css("display","flex").delay(3e3).fadeOut(1e3,a)}a()})()
 </script>
-{{ if .Site.Params.darkModeToggle }}
 
+{{ if .Site.Params.darkModeToggle }}
 <script>
-  // On page load or when changing themes
   const darkmode = document.querySelector('.toggle-dark-mode');
   const darkmodeMD = document.querySelector('.toggle-dark-mode-md');
 
