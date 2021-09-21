@@ -1,6 +1,6 @@
 theme = "bli"
 languageCode = "en-US"
-baseurl = "https://youthgriibsd.pages.dev"
+baseurl = "https://youth.grii-bsd.org"
 defaultContentLanguage = "en"
 
 [languages]
