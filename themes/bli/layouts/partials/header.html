@@ -46,7 +46,7 @@
   </ul>
 
 
-  <ul class="flex items-center gap-4 lg:gap-6">
+  <ul class="flex text-sm items-center gap-4 lg:gap-6">
     {{ range .Site.Sections }}
       {{ if eq .Language.Lang "id" }}
       <li><a class="hover:text-yellow-600 focus:text-yellow-600" href="{{ .Permalink }}">{{ .Params.judul }}</a></li>
