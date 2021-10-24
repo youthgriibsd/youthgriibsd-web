@@ -62,6 +62,11 @@ defaultContentLanguage = "en"
     unsafe = true
 
 [[languages.en.menu.main]]
+  name = "Reels"
+  weight = 5
+  url = "/reels"
+
+[[languages.en.menu.main]]
   name = "Contact"
   weight = 20
   url = "/contact"
@@ -70,6 +75,11 @@ defaultContentLanguage = "en"
   name = "Offering"
   weight = 10
   url = "/offering"
+
+[[languages.id.menu.main]]
+  name = "Video"
+  weight = 5
+  url = "/id/video"
 
 [[languages.id.menu.main]]
   identifier = "kontak"
