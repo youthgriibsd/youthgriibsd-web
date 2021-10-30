@@ -5,7 +5,7 @@ slug: "video"
 draft: false
 ---
 
-<div class="grid md:grid-cols-3 md:gap-4 lg:gap-8">
+<div class="my-4 grid grid-cols-3 gap-4 lg:gap-8">
 <div>
 <div style="display: flex; justify-content: space-evenly; align-items: center;">
 <video controls style="max-width: 102.1%; margin: 0;" width="250">
@@ -29,5 +29,7 @@ draft: false
 </div>
 <p style="font-size: 0.8rem; margin-top: 0.5rem; color: #aaaaaa;">Pemuda GRII BSD Offline</p>
 </div>
-
 </div>
+
+{{< youtube wi9RS-Pq0RA >}}
+<p style="font-size: 0.8rem; margin-top: 0.5rem; color: #aaaaaa;">Jangan Takut! Natal Pemuda GRII BSD 2020</p>
