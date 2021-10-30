@@ -3,6 +3,14 @@ body {
   font-family: 'Metropolis', 'Inter', sans-serif !important;
 }
 
+.grid {
+  display: grid;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 /* Fonts */
 @font-face {
     font-family: 'Metropolis Extra';
