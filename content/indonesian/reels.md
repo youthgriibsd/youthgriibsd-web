@@ -5,6 +5,9 @@ slug: "video"
 draft: false
 ---
 
+{{< youtube JkoF63RxWa4 >}}
+<p style="font-size: 0.8rem; margin-top: 0.5rem; color: #aaaaaa;">Welcome to the Family - Vokal Grup and Ensemble Pemuda GRII BSD</p>
+
 <div class="my-4 grid grid-cols-3 gap-4 lg:gap-8">
   <div>
     <div style="display: flex; justify-content: space-evenly; align-items: center;">
@@ -39,3 +42,6 @@ draft: false
 
 {{< youtube wi9RS-Pq0RA >}}
 <p style="font-size: 0.8rem; margin-top: 0.5rem; color: #aaaaaa;">Jangan Takut! Natal Pemuda GRII BSD 2020</p>
+
+{{< youtube sulD5zSD39c >}}
+<p style="font-size: 0.8rem; margin-top: 0.5rem; color: #aaaaaa;">Kenapa Kamu Ikut Pemuda GRII BSD?</p>
