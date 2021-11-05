@@ -12,6 +12,7 @@
     "build": "NODE_ENV=production hugo -s exampleSite --themesDir=../.. --gc"
   },
   "devDependencies": {
+    "ansi-regex": ">=5.0.1",
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.5",
