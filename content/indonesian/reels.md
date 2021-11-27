@@ -32,11 +32,11 @@ draft: false
   <div>
     <div style="display: flex; justify-content: space-evenly; align-items: center;">
       <video controls style="margin: 0;" width="250">
-        <source src="/videos/fear-not.mp4" type="video/mp4">
+        <source src="/videos/kasih.mp4" type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
       </video>
     </div>
-    <p style="font-size: 0.8rem; margin-top: 0.5rem; color: #aaaaaa;">Jangan Takut!</p>
+    <p style="font-size: 0.8rem; margin-top: 0.5rem; color: #aaaaaa;">Kasih</p>
   </div>
 </div>
 
