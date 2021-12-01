@@ -11,7 +11,7 @@ draft: false
         alert("Thanks for register, God Bless!");
     }
 </script>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location.href='../christmas2021';}">
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='../christmas2021';}">
 </iframe>
 
 <form action="https://docs.google.com/forms/d/e/1FAIpQLSdIPQAteHhD-H46JVq-DFIH2GGJCb8hxto-FcgiuGkydzE5SQ/formResponse" target="hidden_iframe" method="POST" onsubmit="submitted=true; onSubmit();">

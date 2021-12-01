@@ -16,10 +16,13 @@ tags: ["Fellowship", "Christmas"]
 draft: false
 ---
 
-<button id="register" onclick="window.location.href='../daftar';">
-Daftar</button>
+<button id="register">
+<a href="../daftar">
+Daftar</a></button><br><br>
 
-<button id="event_book" onclick="window.location.href='../../files/christmas/FEAR_NOT_2021.pdf';" download>Unduh Buku Acara</button><br>
+<button id="event_book">
+<a href="../../files/christmas/FEAR_NOT_2020.pdf">
+Unduh Buku Acara</a></button><br><br>
 
 <button id="maps">
 <a href="http://bit.ly/NatalPemudaGRIIBSD21">
