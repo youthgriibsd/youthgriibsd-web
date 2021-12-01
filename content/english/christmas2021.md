@@ -16,10 +16,10 @@ draft: false
 ---
 
 <button id="register">
-<a href="../register">
+<a href="https://forms.gle/rtg5cdpxkbBtyC3b9">
 Register</a></button><br><br>
 
-<button id="event_book">
+<button id="event_book" hidden>
 <a href="../../files/christmas/FEAR_NOT_2020.pdf">
 Download Event Book</a></button><br><br>
 

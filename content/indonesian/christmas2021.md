@@ -17,10 +17,10 @@ draft: false
 ---
 
 <button id="register">
-<a href="../daftar">
+<a href="https://forms.gle/rtg5cdpxkbBtyC3b9">
 Daftar</a></button><br><br>
 
-<button id="event_book">
+<button id="event_book" hidden>
 <a href="../../files/christmas/FEAR_NOT_2020.pdf">
 Unduh Buku Acara</a></button><br><br>
 
