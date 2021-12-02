@@ -19,6 +19,11 @@ draft: false
 <a href="https://forms.gle/rtg5cdpxkbBtyC3b9">
 Register</a></button><br><br>
 
+<button id="register">Contact Person: 
+<a href="https://wa.link/0aqkjk">
+Jerry</a> | <a href="https://wa.link/s6lv3s">
+Levin</a></button><br><br>
+
 <button id="event_book" hidden>
 <a href="../../files/christmas/FEAR_NOT_2020.pdf">
 Download Event Book</a></button><br><br>
