@@ -20,6 +20,11 @@ draft: false
 <a href="https://forms.gle/rtg5cdpxkbBtyC3b9">
 Daftar</a></button><br><br>
 
+<button id="register">Kontak: 
+<a href="https://wa.link/0aqkjk">
+Jerry</a> | <a href="https://wa.link/s6lv3s">
+Levin</a></button><br><br>
+
 <button id="event_book" hidden>
 <a href="../../files/christmas/FEAR_NOT_2020.pdf">
 Unduh Buku Acara</a></button><br><br>
